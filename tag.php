@@ -19,48 +19,54 @@
 get_header(); ?>
 
 <body>
+                      <!-- Navigation
+    ==========================================-->
+    <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/de">Community Story Project</a>
+        </div>
 
-<!-- Navigation
-==========================================-->
-<nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
-	<div class="container">
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="index.html">Community Story Project</a>
-		</div>
-
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#tf-about" class="page-scroll">Das Projekt</a></li>
-				<li><a href="#tf-news" class="page-scroll">News</a></li>
-				<li><a href="#tf-works" class="page-scroll">Screenshots</a></li>
-				<li>
-						<a href="https://www.youtube.com/user/Gothic3CSP"><i class="fa fa-youtube"></i></a>
-				</li>
-				<li>
-						<a href="https://www.facebook.com/g3csp"><i class="fa fa-facebook"></i></a>
-				</li>
-			</ul>
-		</div><!-- /.navbar-collapse -->
-	</div><!-- /.container-fluid -->
-</nav>
-
-<div id="tf-page" class="text-center">
-	<div class="lower-border">
-	<?php
-		the_archive_title( '<h1 class="page-title">', '</h1>' );
-		the_archive_description( '<div class="taxonomy-description">', '</div>' );
-	?>
-	</div>
-</div>
-
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a href="https://www.youtube.com/user/Gothic3CSP"><i class="fa fa-youtube"></i></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/g3csp"><i class="fa fa-facebook"></i></a>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+   <?php
+      $a = get_header_image();
+      if($a) 
+          echo ('<div id="tf-page" style="background-image: url(' . $a . ')">');
+       else
+       {
+            $blog_url = get_bloginfo('template_directory');
+            echo('<div id="tf-page" style="background-image: url(' . $blog_url . '/img/Single-Background.png)">');
+       }
+      ?>
+   <div class="lower-border">
+      <div class="container">
+         <?php
+            the_archive_title( '<h1 class="paper">', '</h1>' );
+            the_archive_description( '<div class="taxonomy-description paper">', '</div>' );
+            ?>
+      </div>
+   </div>
+   </div>
+   </div>
 
 
 	<div class="container article-container">
