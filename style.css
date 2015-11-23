@@ -19,25 +19,36 @@ body, html{
 	color: #5a5a5a;
 }
 
+#body-page {
+	margin-top: -20px;
+}
+
 h1{
 	text-transform: uppercase;
+	color: #FCAC45;
 }
+
 h1 strong{
 	font-weight: 900;
 }
-h2{
+
+h2 {
 	text-transform: uppercase;
-	line-height: 20px;
-	margin:  0;
+	margin: 0;
+		color: #FCAC45;
 }
-h3{
-font-size: 18px;
-font-weight: 900;
+h3 {
+	font-size: 18px;
+	font-weight: 900;
+	color: #FCAC45;
 }
-h4{
+
+h4 {
 	text-transform: uppercase;
+	color: #FCAC45;
 }
-h5{
+
+h5 {
 	text-transform: uppercase;
 	font-weight: 700;
 	line-height: 20px;
@@ -51,9 +62,35 @@ p.intro{
 	line-height: 24px;
 	font-family: 'Open Sans', sans-serif;
 }
-a{ color: #FCAC45;}
+a {
+	color: #FCAC45;
+ }
 a:hover,
-a:focus{
+a:focus {
+	text-decoration: none;
+	color: #FCAC45;
+}
+
+.dark {
+	color: #5a5a5a;	
+}
+
+.paper, .paper a, .paper a:hover {
+	color: #5a5a5a;
+	text-shadow: 1px 1px 0 #efeded;
+}
+
+.paper a:hover {
+	text-decoration: underline;
+}
+
+
+.archive-list a {
+	text-decoration: underline;
+	color: #5a5a5a;
+}
+
+.news-title a {
 	text-decoration: none;
 	color: #FCAC45;
 }
@@ -65,6 +102,8 @@ a:focus{
 	float: left;
 	clear: both;
 }
+
+
 .clearfix:after {
      visibility: hidden;
      display: block;
@@ -107,8 +146,8 @@ font-weight: 900;
 	background-color: #222222 !important;
 	padding: 0 !important;
 }
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
 	color: #FCAC45 !important;
 	background-color: transparent;
@@ -118,7 +157,7 @@ font-weight: 900;
 .navbar-toggle {
 	border-radius: 0;
 	}
-.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
 	background-color: #FCAC45;
 	border-color: #FCAC45;
@@ -126,14 +165,59 @@ font-weight: 900;
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
 	}
-	
+
 .nav .fa {
 	font-size: 2em;
-}	
-	
+}
+
+.article-container {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+article {
+	margin-bottom: 75px;
+}
+
+.pagination {
+	margin-bottom: 0px;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+
+#tf-page {
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 400px;
+	color: #cfcfcf;
+}
+
+#tf-page .lower-border {
+	background: url(img/rand_unten.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	height: 400px;
+}
+
+#tf-page h1 {
+	padding: 150px 0;
+	color: #5a5a5a;
+}
+
+.page-content {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
 /* Home Style */
 #tf-home{
-	background: url("img/01.jpg");
+	background: url("img/01.png	");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -184,16 +268,16 @@ a.fa.fa-angle-down:hover{
 @media screen and (min-width: 992px) {
 	#tf-about {
 		background-image: url(img/Background_1.png);
-		background-size: cover; 
+		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: left center;  
+		background-position: left center;
 	}
 }
 
 @media screen and (min-width: 1920px) {
 	#tf-about {
 		background-image: url(img/Background_1.png);
-		background-size: auto; 
+		background-size: auto;
 		background-repeat: no-repeat;
 		background-position: left;
 	}
@@ -203,7 +287,7 @@ a.fa.fa-angle-down:hover{
 #tf-about-wrapper{
 	margin-top: -50px;
 	background-image: url(img/Background.png);
-	background-size: auto; 
+	background-size: auto;
 	background-repeat: repeat-x;
 }
 
@@ -233,7 +317,7 @@ ul.about-list li{
 	line-height: 30px;
 	font-family: 'Open Sans', sans-serif;
 }
-ul.about-list li span{ 
+ul.about-list li span{
 	margin-right: 10px;
 }
 
@@ -329,7 +413,7 @@ img.img-circle.team-img {
 	transition: all 0.5s;
 }
 
-.owl-theme .owl-controls .owl-page.active span, 
+.owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
 	filter: Alpha(Opacity=100);
 	opacity: 1;
@@ -365,7 +449,7 @@ img.img-circle.team-img {
 	background: url(img/rand_oben.png);
 	background-repeat: repeat-x;
 	background-position: top;
-	
+
 }
 
 #wallpaper-paralax  .lower-border {
@@ -378,12 +462,12 @@ img.img-circle.team-img {
 
 
 
-/* Gallery Section 
+/* Gallery Section
 ==============================*/
 #tf-works{
 	padding: 80px 0;
 }
-.categories{ 
+.categories{
 	padding: 10px 0;
 }
 ul.cat li{
@@ -437,12 +521,12 @@ ol.type li a.active { font-weight: 700; }
 
 .portfolio-item img {
 	position: absolute;
-    bottom: 0px; 
-    right: 0px; 
-    min-width: 100%; 
-    min-height: 100%; 
-    width: auto; 
-    height: auto; 
+    bottom: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
     overflow: hidden;
 }
 
@@ -588,11 +672,11 @@ button.btn.tf-btn.btn-default {
 	box-shadow: none;
 }
 
-.btn:focus, 
-.btn:active:focus, 
-.btn.active:focus, 
-.btn.focus, 
-.btn:active.focus, 
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
 .btn.active.focus {
 	outline: thin dotted;
 	outline: none;
@@ -605,6 +689,9 @@ footer{
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-image: url(img/Single-Background.png);
+}
+.footer-text h2 {
+	color: #5A5A5A !important;
 }
 footer .fnav{ vertical-align: middle;}
 ul.footer-social li{
@@ -624,46 +711,48 @@ footer .upper-border {
 
 
 footer i.fa {
-	height: 30px;
-	width: 30px;
-	border: 2px solid #8c8c8c;
 	font-size: 20px;
 	padding: 4px 5px;
-	border-radius: 50%;
-	color: #8c8c8c;
-	transition: all 0.5s;
 }
-footer i.fa:hover{
+/*footer i.fa:hover{
 	background: #FCAC45;
 	border-color: #FCAC45;
 	color: #ffffff;
-}
+}*/
 
 
 /* Single */
 
-#tf-single header  {
+#tf-single  {
+	background-size: cover;
 	background-position: center;
-	background-repeat: repeat-x;
-	padding: 120px 0 150px 0%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 400px;
 }
 
-#tf-single .single-content {
+#tf-single .lower-border {
+	background: url(img/rand_unten.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	height: 400px;
+}
+
+#tf-single .lower-border .container {
 	padding: 150px 0;
-	margin-top: -41px;
-	background-image: url(img/rand_unten.png);
-	background-position: top right;
-	background-repeat: repeat-x;
-	outline:none;
-	border: none;
 }
 
-#tf-single .single-content img {
+
+.single-content {
+	margin: 100px 0;
+}
+
+.single-content img {
 	max-width: 100%;
 	height:auto !important;
 }
 
-#tf-single .single-meta {
+.single-meta {
 	margin-top: 75px;
 	margin-bottom: 100px;
 }
