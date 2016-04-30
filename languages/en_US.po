@@ -1,0 +1,175 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-04-30 15:53+0200\n"
+"PO-Revision-Date: 2016-04-30 15:53+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:21
+msgid "Seite nicht gefunden"
+msgstr "Page not found"
+
+#: 404.php:23
+msgid "Da ist nichts zu holen"
+msgstr ""
+
+#: archive.php:58 author.php:46 tag.php:64
+msgid "Previous page"
+msgstr ""
+
+#: archive.php:59 author.php:47 tag.php:65
+msgid "Next page"
+msgstr ""
+
+#: archive.php:60 author.php:48 category.php:52 content-link.php:40
+#: content-page.php:29 tag.php:66
+msgid "Page"
+msgstr ""
+
+#: category.php:50
+msgid "Zurück"
+msgstr ""
+
+#: category.php:51
+msgid "Vorwärts"
+msgstr ""
+
+#: content-link.php:31
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: content-link.php:36 content-page.php:25
+msgid "Pages:"
+msgstr ""
+
+#: content-link.php:56 content-page.php:35 content-search.php:28
+#: content-search.php:33
+msgid "Edit"
+msgstr ""
+
+#: content-none.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:26
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: footer.php:8 front-page.php:26
+msgid "Erstellt von der Community für die Community"
+msgstr "Created by the community for the community"
+
+#: footer.php:22
+msgid "Datenschutz"
+msgstr "Privacy Statement"
+
+#: footer.php:22
+msgid "Impressum"
+msgstr "Imprint"
+
+#: front-page.php:22
+msgid "Das Community Story Project"
+msgstr "The Community Story Project"
+
+#: front-page.php:23
+msgid "Gothic 3 <strong>neu erleben</strong>"
+msgstr "Gothic 3 <strong>Revived</strong>"
+
+#: front-page.php:30
+msgid ""
+"<strong>Story</strong> - <em>eine verbesserte, durch Kapitel gegliederte "
+"Story</em>"
+msgstr ""
+"<strong>Story</strong> - <em>a more sophisticated, chapter-wise story</em>"
+
+#: front-page.php:34
+msgid ""
+"<strong>Charaktere</strong> - <em>aufgewertete und interessante Charaktere</"
+"em>"
+msgstr ""
+"<strong>Story</strong> - <em>a more sophisticated, chapter-wise story</em>"
+
+#: front-page.php:38
+msgid "<strong>Quests</strong> - <em>noch mehr spannende Quests</em>"
+msgstr "<strong>Quests</strong> - <em>even more exciting quests</em>"
+
+#: front-page.php:43
+msgid "mehr in den FAQ"
+msgstr "read more in our FAQ"
+
+#: front-page.php:58
+msgid "Neuigkeiten"
+msgstr "News"
+
+#: front-page.php:77
+msgid "Sorry, there are no posts."
+msgstr ""
+
+#: front-page.php:83 header.php:99
+msgid "Archiv"
+msgstr "Archive"
+
+#: front-page.php:97
+msgid "Screenshots"
+msgstr "Screenshots"
+
+#: header.php:97
+msgid "/de"
+msgstr "/en"
+
+#: header.php:98
+msgid "/de/faq"
+msgstr "/en/faq"
+
+#: header.php:98
+msgid "FAQ"
+msgstr "FAQ"
+
+#: header.php:99
+msgid "/de/archiv"
+msgstr "/en/archive"
+
+#: header.php:100
+msgid "/de/galerie"
+msgstr "/en/gallery"
+
+#: header.php:100
+msgid "Galerie"
+msgstr "Gallery"
+
+#: header.php:101
+msgid "WoG"
+msgstr "WoG"
+
+#: page.php:24 single.php:25
+msgid "Sorry, this page does not exist."
+msgstr ""
+
+#~ msgid "Home"
+#~ msgstr "Home"

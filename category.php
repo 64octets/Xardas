@@ -1,56 +1,37 @@
+<?php get_header(); ?>
 <?php
-/**
- * The template for displaying archive pages
- *
- * Used to display archive-type pages if nothing more specific matches a query.
- * For example, puts together date-based pages if no date.php file exists.
- *
- * If you'd like to further customize these archive views, you may create a
- * new template file for each one. For example, tag.php (Tag archives),
- * category.php (Category archives), author.php (Author archives), etc.
- *
- * @link https://codex.wordpress.org/Template_Hierarchy
- *
- * @package WordPress
- * @subpackage Twenty_Fifteen
- * @since Twenty Fifteen 1.0
- */
-
-get_header(); ?>
-
-<body>
-
-      <?php
 $a = get_header_image();
-if($a) 
-    echo ('<div id="tf-page" class="text-center" style="background-image: url(' . $a . ')">');
+if($a)
+    echo ('<div id="tf-page-header" style="background-image: url(' . $a . ')">');
  else
  {
       $blog_url = get_bloginfo('template_directory');
-      echo('<div id="tf-page" class="text-center" style="background-image: url(' . $blog_url . '/img/Single-Background.png)">');
+      echo('<div id="tf-page-header" style="background-image: url(' . $blog_url . '/img/background.jpg)">');
  }
 ?>
-  <div class="lower-border">
+    <div class="lower-border">
 
-         <div class="container">
-         <?php
-            the_archive_title( '<h1 class="paper">', '</h1>' );
+        <div class="container">
+            <?php
+            the_archive_title( '<h1 class="paper"><strong>', '</strong></h1>' );
             the_archive_description( '<div class="taxonomy-description paper">', '</div>' );
             ?>
-         </div>
-      </div>
+        </div>
     </div>
-  </div>
+    </div>
+    </div>
 
 
 
 
-	<div class="container article-container">
+    <div class="container article-container">
 
-		<?php if ( have_posts() ) : ?>
+        <?php
+
+         if ( have_posts() ) : ?>
 
 
-			<?php
+        <?php
 			// Start the Loop.
 			while ( have_posts() ) : the_post();
 
@@ -66,8 +47,8 @@ if($a)
 
 			// Previous/next page navigation.
 			the_posts_pagination( array(
-				'prev_text'          => __( 'Previous page', 'xardas' ),
-				'next_text'          => __( 'Next page', 'xardas' ),
+				'prev_text'          => __( 'Zurück', 'xardas' ),
+				'next_text'          => __( 'Vorwärts', 'xardas' ),
 				'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'xardas' ) . ' </span>',
 			) );
 
@@ -78,7 +59,7 @@ if($a)
 		endif;
 		?>
 
-	</div><!-- .content-area -->
+    </div>
+    <!-- .content-area -->
 
-<?php get_footer(); ?>
-</body>
+    <?php get_footer(); ?>

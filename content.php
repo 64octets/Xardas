@@ -1,11 +1,9 @@
-<article>
    <?php
       if ( is_single() ) :
-      	the_title( '<h1 class="entry-title">', '</h1>' );
+      	the_title( '<p class="entry-title">', '</p>' );
       else :
-      	the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
+      	the_title( sprintf( '<h3 class="entry-title"><strong><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></strong></h3>' );
       endif;
       ?>
-   <h4 class="dark"><span class="entry-date"><?php echo get_the_date(); ?></span> - <?php the_time(); ?></h4>
-</article>
-
+   <div class="dark"><span class="entry-date"><?php echo get_the_date(); ?></span> - <?php the_time(); ?></div>
+<br />

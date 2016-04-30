@@ -1197,7 +1197,7 @@ if (typeof Object.create !== "function") {
                 iterations += 1;
                 if (base.completeImg($lazyImg.get(0)) || isBackgroundImg === true) {
                     showImage();
-                } else if (iterations <= 100) {//if image loads in less than 10 seconds 
+                } else if (iterations <= 100) {//if image loads in less than 10 seconds
                     window.setTimeout(checkLazyImage, 100);
                 } else {
                     showImage();
@@ -1226,7 +1226,7 @@ if (typeof Object.create !== "function") {
                 iterations += 1;
                 if (base.completeImg($currentimg.get(0))) {
                     addHeight();
-                } else if (iterations <= 100) { //if image loads in less than 10 seconds 
+                } else if (iterations <= 100) { //if image loads in less than 10 seconds
                     window.setTimeout(checkImage, 100);
                 } else {
                     base.wrapperOuter.css("height", ""); //Else remove height attribute
@@ -1510,3 +1510,28 @@ if (typeof Object.create !== "function") {
         afterLazyLoad: false
     };
 }(jQuery, window, document));
+
+
+
+function addClassNameListener(elemId, callback) {
+    var elem = document.getElementById(elemId);
+    var lastClassName = elem.className;
+    window.setInterval( function() {
+       var className = elem.className;
+        if (className !== lastClassName) {
+            callback();
+            lastClassName = className;
+        }
+    },10);
+}
+
+
+addClassNameListener("navbar-button", function() {
+    var elem = document.getElementById("navbar-button");
+    var menu = document.getElementById("tf-menu");
+    if(elem.classList.contains("collapsed")) {
+        menu.style.backgroundColor = null;
+    } else {
+        menu.style.backgroundColor = "black";
+    }
+});

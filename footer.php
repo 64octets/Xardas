@@ -3,9 +3,9 @@
       <div class="container">
          <div class="row">
             <div class="col-md-7">
-               <div class="footer-text">
+               <div class="footer-text text-left">
                   <h1 class="paper">G3 <strong>Community Story Project</strong></h1>
-                  <h5 class="paper">Erstellt von der Community für die Community</h5>
+                  <h5 class="paper"><?php _e('Erstellt von der Community für die Community', 'xardas')?></h5>
                   <div class="clearfix"></div>
                   <h5 class="paper">Copyright 2015</h5>
                   <br>
@@ -19,13 +19,14 @@
             <div class="col-md-5 text-right">
                <div>
                      <br>
-                  <h5 class="paper"><a href="datenschutz">Datenschutz</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="impressum">Impressum</a></h5>
+                  <h5 class="paper"><a href="datenschutz"><?php _e('Datenschutz', 'xardas')?></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="impressum"><?php _e('Impressum', 'xardas')?></a></h5>
                </div>
             </div>
          </div>
       </div>
    </div>
 </footer>
+</body>
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
       <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.1.11.1.js"></script>
@@ -38,4 +39,3 @@
          ================================================== -->
       <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/main.js"></script>
 <? wp_footer(); ?>
-
