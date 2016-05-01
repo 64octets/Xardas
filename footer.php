@@ -5,7 +5,7 @@
             <div class="col-md-7">
                <div class="footer-text text-left">
                   <h1 class="paper">G3 <strong>Community Story Project</strong></h1>
-                  <h5 class="paper"><?php _e('Erstellt von der Community für die Community', 'xardas')?></h5>
+                  <h5 class="paper"><?php _e('Created by the community for the community', 'xardas')?></h5>
                   <div class="clearfix"></div>
                   <h5 class="paper">Copyright 2015</h5>
                   <br>
@@ -19,7 +19,11 @@
             <div class="col-md-5 text-right">
                <div>
                      <br>
-                  <h5 class="paper"><a href="datenschutz"><?php _e('Datenschutz', 'xardas')?></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="impressum"><?php _e('Impressum', 'xardas')?></a></h5>
+                  <h5 class="paper">
+                      <a href="<?php navi_link(__('privacy-statement', 'xardas')) ?>"><?php _e('Privacy Statement', 'xardas')?></a>
+                      &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                      <a href="<?php navi_link(__('imprint', 'xardas')) ?>"><?php _e('Imprint', 'xardas')?></a>
+                  </h5>
                </div>
             </div>
          </div>

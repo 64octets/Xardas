@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
         <?php wp_title(''); ?>
-        <?php if (!(is_404()) && (is_single()) || (is_page()) || (is_archive())) { ?> -
-        <?php } ?>
+        <?php if (!(is_404()) && (is_single()) || (is_page()) || (is_archive())) {
+    ?> -
+        <?php
+
+} ?>
         <?php bloginfo('name'); ?>
     </title>
     <meta name="description" content="Gothic 3 Neu erleben - Eine verbesserte, durch Kapitel gegliederte Story - Aufgewertete und interessante Charaktere - noch mehr spannende Quests">
@@ -82,11 +85,12 @@
                 <table height="100%">
                     <tr>
                         <td>
-                            <img class="logo" src="<?php bloginfo('template_directory'); ?>/img/logo.png" />
-
+                            <a href="<?php bloginfo('url'); ?>">
+                                <img class="logo" src="<?php bloginfo('template_directory'); ?>/img/logo.png" />
+                            </a>
                         </td>
                         <td valign="center">
-                            <a class="navbar-brand" href="/de">&nbsp;CSP</a>
+                            <a class="navbar-brand" href="<?php bloginfo('url'); ?>">&nbsp;CSP</a>
 
                         </td>
                     </tr>
@@ -94,10 +98,10 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="<?php _e('/de', 'xardas')?>" class="page-scroll nav-text"><?php _e('Home', 'xardas')?></a></li>
-                    <li><a href="<?php _e('/de/faq', 'xardas')?>" class="page-scroll nav-text"><?php _e('FAQ', 'xardas')?></a></li>
-                    <li><a href="<?php _e('/de/archiv', 'xardas')?>" class="page-scroll nav-text"><?php _e('Archiv', 'xardas')?></a></li>
-                    <li><a href="<?php _e('/de/galerie', 'xardas')?>" class="page-scroll nav-text"><?php _e('Galerie', 'xardas')?></a></li>
+                    <li><a href="<?php navi_link('') ?>" class="page-scroll nav-text"><?php _e('Home', 'xardas')?></a></li>
+                    <li><a href="<?php navi_link(__('faq', 'xardas')) ?>" class="page-scroll nav-text"><?php _e('FAQ', 'xardas')?></a></li>
+                    <li><a href="<?php navi_link(__('archive', 'xardas')) ?>" class="page-scroll nav-text"><?php _e('Archive', 'xardas')?></a></li>
+                    <li><a href="<?php navi_link(__('gallery', 'xardas')) ?>" class="page-scroll nav-text"><?php _e('Gallery', 'xardas')?></a></li>
                         <li><a href="http://forum.worldofplayers.de/forum/threads/1452859-Gothic-3-Community-Story-Project-35" target="_blank" class="page-scroll nav-text"><?php _e('WoG', 'xardas')?></a></li>
                     <li>
                         <a href="https://www.youtube.com/user/Gothic3CSP"><i class="fa fa-youtube"></i></a>

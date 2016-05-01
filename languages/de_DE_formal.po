@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Xardas\n"
-"POT-Creation-Date: 2016-04-29 10:09+0200\n"
-"PO-Revision-Date: 2016-04-30 15:20+0200\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2016-05-01 12:00+0200\n"
+"PO-Revision-Date: 2016-05-01 12:02+0200\n"
+"Last-Translator: Daniel Hitzel <d-hitzel@outlook.com>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -16,87 +16,135 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: archive.php:58 author.php:46 tag.php:64
-msgid "Previous page"
-msgstr ""
+#: 404.php:16
+msgid "Page not found"
+msgstr "Seite nicht gefunden"
 
-#: archive.php:59 author.php:47 tag.php:65
-msgid "Next page"
-msgstr ""
+#: 404.php:18
+msgid "Nothing to get"
+msgstr "\"Da ist nichts zu holen\""
 
-#: archive.php:60 author.php:48 category.php:52 content-link.php:40
-#: content-page.php:29 tag.php:66
+#: archive.php:58 author.php:46 category.php:50 tag.php:64
+msgid "Previous"
+msgstr "Zurück"
+
+#: archive.php:59 author.php:47 category.php:51 tag.php:65
+msgid "Next"
+msgstr "Vorwärts"
+
+#: archive.php:60 author.php:48 category.php:52 tag.php:66
 msgid "Page"
-msgstr ""
+msgstr "Seite"
 
-#: category.php:50
-msgid "Zurück"
-msgstr ""
-
-#: category.php:51
-msgid "Vorwärts"
-msgstr ""
-
-#: content-link.php:31
-#, php-format
-msgid "Continue reading %s"
-msgstr ""
-
-#: content-link.php:36 content-page.php:25
-msgid "Pages:"
-msgstr ""
-
-#: content-link.php:56 content-page.php:35 content-search.php:28
-#: content-search.php:33
+#: content-search.php:28 content-search.php:33
 msgid "Edit"
-msgstr ""
+msgstr "Editieren"
 
-#: content-none.php:15
-msgid "Nothing Found"
-msgstr ""
+#: footer.php:8 front-page.php:26
+msgid "Created by the community for the community"
+msgstr "Erstellt von der Community für die Community"
 
-#: content-none.php:22
-#, php-format
+#: footer.php:22
+msgid "privacy-statement"
+msgstr "datenschutz"
+
+#: footer.php:22
+msgid "Privacy Statement"
+msgstr "Datenschutz"
+
+#: footer.php:22
+msgid "imprint"
+msgstr "impressum"
+
+#: footer.php:22
+msgid "Imprint"
+msgstr "Impressum"
+
+#: front-page.php:22
+msgid "The Community Story Project"
+msgstr "Das Community Story Project"
+
+#: front-page.php:23
+msgid "Gothic 3 <strong>Revived</strong>"
+msgstr "Gothic 3 <strong>neu erleben</strong>"
+
+#: front-page.php:30
 msgid ""
-"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+"<strong>Story</strong> - <em>a more sophisticated, chapter-wise story</em>"
 msgstr ""
+"<strong>Story</strong> - <em>eine verbesserte, durch Kapitel gegliederte "
+"Story</em>"
 
-#: content-none.php:26
-msgid ""
-"Sorry, but nothing matched your search terms. Please try again with some "
-"different keywords."
+#: front-page.php:34
+msgid "<strong>Characters</strong> - <em>improved character design</em>"
 msgstr ""
+"<strong>Charaktere</strong> - <em>aufgewertete und interessante Charaktere</"
+"em>"
 
-#: content-none.php:31
-msgid ""
-"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
-"searching can help."
-msgstr ""
+#: front-page.php:38
+msgid "<strong>Quests</strong> - <em>even more exciting quests</em>"
+msgstr "<strong>Quests</strong> - <em>noch mehr spannende Quests</em>"
+
+#: front-page.php:43
+msgid "read more in our FAQ"
+msgstr "mehr in den FAQ"
+
+#: front-page.php:58
+msgid "News"
+msgstr "Neuigkeiten"
 
 #: front-page.php:77
-msgid "Sorry, there are no posts."
-msgstr ""
+msgid "No posts found"
+msgstr "Keine Beiträge gefunden"
 
-#: header.php:97
-msgid "Home"
-msgstr ""
+#: front-page.php:83 header.php:103
+msgid "archive"
+msgstr "archiv"
 
-#: header.php:98
-msgid "FAQ"
-msgstr ""
+#: front-page.php:83 header.php:103
+msgid "Archive"
+msgstr "Archiv"
 
-#: header.php:99
-msgid "Archiv"
-msgstr ""
-
-#: header.php:100
-msgid "Galerie"
-msgstr ""
+#: front-page.php:97
+msgid "Screenshots"
+msgstr "Screenshots"
 
 #: header.php:101
+msgid "Home"
+msgstr "Home"
+
+#: header.php:102
+msgid "faq"
+msgstr "faq"
+
+#: header.php:102
+msgid "FAQ"
+msgstr "FAQ"
+
+#: header.php:104
+msgid "gallery"
+msgstr "galerie"
+
+#: header.php:104
+msgid "Gallery"
+msgstr "Galerie"
+
+#: header.php:105
 msgid "WoG"
-msgstr ""
+msgstr "WoG"
 
 #: page.php:24 single.php:25
-msgid "Sorry, this page does not exist."
-msgstr ""
+msgid "This page does not exist"
+msgstr "Diese Seite existiert nicht"
+
+#: single.php:33
+msgid "Author"
+msgstr "Autor"
+
+#: single.php:47
+msgid "Categories"
+msgstr "Kategorien"
+
+#: single.php:53
+msgid "Tags"
+msgstr "Tags"

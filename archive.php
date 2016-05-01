@@ -55,8 +55,8 @@
 
          // Previous/next page navigation.
          the_posts_pagination( array(
-         	'prev_text'          => __( 'Previous page', 'xardas' ),
-         	'next_text'          => __( 'Next page', 'xardas' ),
+         	'prev_text'          => __( 'Previous', 'xardas' ),
+         	'next_text'          => __( 'Next', 'xardas' ),
          	'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'xardas' ) . ' </span>',
          ) );
 

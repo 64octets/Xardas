@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-04-30 15:53+0200\n"
-"PO-Revision-Date: 2016-04-30 15:53+0200\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2016-05-01 11:35+0200\n"
+"PO-Revision-Date: 2016-05-01 12:00+0200\n"
+"Last-Translator: Daniel Hitzel <d-hitzel@outlook.com>\n"
 "Language-Team: \n"
 "Language: en_US\n"
 "MIME-Version: 1.0\n"
@@ -16,160 +16,200 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: 404.php:21
-msgid "Seite nicht gefunden"
-msgstr "Page not found"
-
-#: 404.php:23
-msgid "Da ist nichts zu holen"
+#: 404.php:16
+msgid "Page not found"
 msgstr ""
 
-#: archive.php:58 author.php:46 tag.php:64
-msgid "Previous page"
+#: 404.php:18
+msgid "Nothing to get"
 msgstr ""
 
-#: archive.php:59 author.php:47 tag.php:65
-msgid "Next page"
+#: archive.php:58 author.php:46 category.php:50 tag.php:64
+msgid "Previous"
 msgstr ""
 
-#: archive.php:60 author.php:48 category.php:52 content-link.php:40
-#: content-page.php:29 tag.php:66
+#: archive.php:59 author.php:47 category.php:51 tag.php:65
+msgid "Next"
+msgstr ""
+
+#: archive.php:60 author.php:48 category.php:52 tag.php:66
 msgid "Page"
 msgstr ""
 
-#: category.php:50
-msgid "Zurück"
-msgstr ""
-
-#: category.php:51
-msgid "Vorwärts"
-msgstr ""
-
-#: content-link.php:31
-#, php-format
-msgid "Continue reading %s"
-msgstr ""
-
-#: content-link.php:36 content-page.php:25
-msgid "Pages:"
-msgstr ""
-
-#: content-link.php:56 content-page.php:35 content-search.php:28
-#: content-search.php:33
+#: content-search.php:28 content-search.php:33
 msgid "Edit"
 msgstr ""
 
-#: content-none.php:15
-msgid "Nothing Found"
-msgstr ""
-
-#: content-none.php:22
-#, php-format
-msgid ""
-"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
-
-#: content-none.php:26
-msgid ""
-"Sorry, but nothing matched your search terms. Please try again with some "
-"different keywords."
-msgstr ""
-
-#: content-none.php:31
-msgid ""
-"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
-"searching can help."
-msgstr ""
-
 #: footer.php:8 front-page.php:26
-msgid "Erstellt von der Community für die Community"
-msgstr "Created by the community for the community"
+msgid "Created by the community for the community"
+msgstr ""
 
 #: footer.php:22
-msgid "Datenschutz"
-msgstr "Privacy Statement"
+msgid "Privacy Statement"
+msgstr ""
 
 #: footer.php:22
-msgid "Impressum"
-msgstr "Imprint"
+msgid "Imprint"
+msgstr ""
 
 #: front-page.php:22
-msgid "Das Community Story Project"
-msgstr "The Community Story Project"
+msgid "The Community Story Project"
+msgstr ""
 
 #: front-page.php:23
-msgid "Gothic 3 <strong>neu erleben</strong>"
-msgstr "Gothic 3 <strong>Revived</strong>"
+msgid "Gothic 3 <strong>Revived</strong>"
+msgstr ""
 
 #: front-page.php:30
-msgid ""
-"<strong>Story</strong> - <em>eine verbesserte, durch Kapitel gegliederte "
-"Story</em>"
+msgid "<strong>Story</strong> - <em>a more sophisticated, chapter-wise story</em>"
 msgstr ""
-"<strong>Story</strong> - <em>a more sophisticated, chapter-wise story</em>"
 
 #: front-page.php:34
-msgid ""
-"<strong>Charaktere</strong> - <em>aufgewertete und interessante Charaktere</"
-"em>"
+msgid "<strong>Characters</strong> - <em>improved character design</em>"
 msgstr ""
-"<strong>Story</strong> - <em>a more sophisticated, chapter-wise story</em>"
 
 #: front-page.php:38
-msgid "<strong>Quests</strong> - <em>noch mehr spannende Quests</em>"
-msgstr "<strong>Quests</strong> - <em>even more exciting quests</em>"
-
-#: front-page.php:43
-msgid "mehr in den FAQ"
-msgstr "read more in our FAQ"
-
-#: front-page.php:58
-msgid "Neuigkeiten"
-msgstr "News"
-
-#: front-page.php:77
-msgid "Sorry, there are no posts."
+msgid "<strong>Quests</strong> - <em>even more exciting quests</em>"
 msgstr ""
 
-#: front-page.php:83 header.php:99
-msgid "Archiv"
-msgstr "Archive"
+#: front-page.php:43
+msgid "read more in our FAQ"
+msgstr ""
+
+#: front-page.php:58
+msgid "News"
+msgstr ""
+
+#: front-page.php:77
+msgid "No posts found"
+msgstr ""
+
+#: front-page.php:83 header.php:103
+msgid "Archive"
+msgstr ""
 
 #: front-page.php:97
 msgid "Screenshots"
-msgstr "Screenshots"
-
-#: header.php:97
-msgid "/de"
-msgstr "/en"
-
-#: header.php:98
-msgid "/de/faq"
-msgstr "/en/faq"
-
-#: header.php:98
-msgid "FAQ"
-msgstr "FAQ"
-
-#: header.php:99
-msgid "/de/archiv"
-msgstr "/en/archive"
-
-#: header.php:100
-msgid "/de/galerie"
-msgstr "/en/gallery"
-
-#: header.php:100
-msgid "Galerie"
-msgstr "Gallery"
-
-#: header.php:101
-msgid "WoG"
-msgstr "WoG"
-
-#: page.php:24 single.php:25
-msgid "Sorry, this page does not exist."
 msgstr ""
 
-#~ msgid "Home"
-#~ msgstr "Home"
+#: header.php:101
+msgid "Home"
+msgstr ""
+
+#: header.php:102
+msgid "faq"
+msgstr ""
+
+#: header.php:102
+msgid "FAQ"
+msgstr ""
+
+#: header.php:103
+msgid "archive"
+msgstr ""
+
+#: header.php:104
+msgid "gallery"
+msgstr ""
+
+#: header.php:104
+msgid "Gallery"
+msgstr ""
+
+#: header.php:105
+msgid "WoG"
+msgstr ""
+
+#: page.php:24 single.php:25
+msgid "This page does not exist"
+msgstr ""
+
+#: single.php:33
+msgid "Author"
+msgstr ""
+
+#: single.php:47
+msgid "Categories"
+msgstr ""
+
+#: single.php:53
+msgid "Tags"
+msgstr ""
+
+#~ msgid "Zurück"
+#~ msgstr "Previous"
+
+#~ msgid "Vorwärts"
+#~ msgstr "Next"
+
+#~ msgid "Seite"
+#~ msgstr "Page"
+
+#~ msgid "Seiten:"
+#~ msgstr "Pages:"
+
+#~ msgid "Nichts gefunden"
+#~ msgstr "Nothing Found"
+
+#~ msgid "Hier gibt es keine Beiträge"
+#~ msgstr "Sorry, there are no posts."
+
+#~ msgid "Erstellt von der Community für die Community"
+#~ msgstr "Created by the community for the community"
+
+#~ msgid "Datenschutz"
+#~ msgstr "Privacy Statement"
+
+#~ msgid "Impressum"
+#~ msgstr "Imprint"
+
+#~ msgid "<strong>Charaktere</strong> - <em>aufgewertete und interessante Charaktere</em>"
+#~ msgstr "<strong>Story</strong> - <em>a more sophisticated, chapter-wise story</em>"
+
+#~ msgid "<strong>Quests</strong> - <em>noch mehr spannende Quests</em>"
+#~ msgstr "<strong>Quests</strong> - <em>even more exciting quests</em>"
+
+#~ msgid "mehr in den FAQ"
+#~ msgstr "read more in our FAQ"
+
+#~ msgid "Neuigkeiten"
+#~ msgstr "News"
+
+#~ msgid "Archiv"
+#~ msgstr "Archive"
+
+#~ msgid "Diese Seite existiert nicht"
+#~ msgstr "This page does not exists"
+
+#~ msgid "verfasst von"
+#~ msgstr "Author"
+
+#~ msgid "Kategorien"
+#~ msgstr "Categories"
+
+#~ msgid "Seite nicht gefunden"
+#~ msgstr "Page not found"
+
+#~ msgid "Das Community Story Project"
+#~ msgstr "The Community Story Project"
+
+#~ msgid "Gothic 3 <strong>neu erleben</strong>"
+#~ msgstr "Gothic 3 <strong>Revived</strong>"
+
+#~ msgid "<strong>Story</strong> - <em>eine verbesserte, durch Kapitel gegliederte Story</em>"
+#~ msgstr "<strong>Story</strong> - <em>a more sophisticated, chapter-wise story</em>"
+
+#~ msgid "/de"
+#~ msgstr "/en"
+
+#~ msgid "/de/faq"
+#~ msgstr "/en/faq"
+
+#~ msgid "/de/archiv"
+#~ msgstr "/en/archive"
+
+#~ msgid "/de/galerie"
+#~ msgstr "/en/gallery"
+
+#~ msgid "Galerie"
+#~ msgstr "Gallery"

@@ -22,7 +22,7 @@
             <?php the_content(); ?>
             <?php endwhile; else: ?>
             <p>
-                <?php _e('Sorry, this page does not exist.'); ?>
+                <?php _e('This page does not exist'); ?>
             </p>
             <?php endif; ?>
         </div>
@@ -30,7 +30,7 @@
     <div class="container single-meta text-left">
         <div class="row">
             <div class="col-md-12">
-                <h5 class="dark">verfasst von</h5>
+                <h5 class="dark"><?php _e('Author', 'xardas')?></h5>
                 <?php if (have_posts()) : ?>
                 <?php while (have_posts()) : the_post(); ?>
                 <a href="/author/<?php the_author(); ?>/">
@@ -44,13 +44,13 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <h4 class="dark">Kategorien</h4>
+                <h4 class="dark"><?php _e('Categories', 'xardas')?></h4>
                 <p>
                     <?php the_category(', '); ?>
                 </p>
             </div>
             <div class="col-md-6">
-                <h4 class="dark">Tags</h4>
+                <h4 class="dark"><?php _e('Tags', 'xardas')?></h4>
                 <p>
                     <?php the_tags( '', ', ', '<br />' ); ?>
                 </p>

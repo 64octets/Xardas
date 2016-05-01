@@ -21,7 +21,7 @@
             <?php the_content(); ?>
             <?php endwhile; else: ?>
             <p>
-                <?php _e('Sorry, this page does not exist.'); ?>
+                <?php _e('This page does not exist'); ?>
             </p>
             <?php endif; ?>
         </div>

@@ -19,28 +19,28 @@
                 <div class="col-md-offset-7">
                     <div class="about-text">
                         <div class="section-title section-title-dark">
-                            <h4 class="paper"><?php _e('Das Community Story Project', 'xardas')?></h4>
-                            <h1 class="paper"><?php _e('Gothic 3 <strong>neu erleben</strong>', 'xardas')?></h1>
+                            <h4 class="paper"><?php _e('The Community Story Project', 'xardas')?></h4>
+                            <h1 class="paper"><?php _e('Gothic 3 <strong>Revived</strong>', 'xardas')?></h1>
                             <div class="clearfix"></div>
                         </div>
-                        <p class="intro paper"><?php _e('Erstellt von der Community für die Community', 'xardas')?></p>
+                        <p class="intro paper"><?php _e('Created by the community for the community', 'xardas')?></p>
                         <ul class="about-list paper">
                             <li>
                                 <span class="fa fa-dot-circle-o"></span>
-                                <?php _e('<strong>Story</strong> - <em>eine verbesserte, durch Kapitel gegliederte Story</em>', 'xardas')?>
+                                <?php _e('<strong>Story</strong> - <em>a more sophisticated, chapter-wise story</em>', 'xardas')?>
                             </li>
                             <li>
                                 <span class="fa fa-dot-circle-o"></span>
-                                <?php _e('<strong>Charaktere</strong> - <em>aufgewertete und interessante Charaktere</em>', 'xardas')?>
+                                <?php _e('<strong>Characters</strong> - <em>improved character design</em>', 'xardas')?>
                             </li>
                             <li>
                                 <span class="fa fa-dot-circle-o"></span>
-                                <?php _e('<strong>Quests</strong> - <em>noch mehr spannende Quests</em>', 'xardas')?>
+                                <?php _e('<strong>Quests</strong> - <em>even more exciting quests</em>', 'xardas')?>
                             </li>
 
                         </ul>
                         <br>
-                        <h4 class="paper"><a href="faq"><?php _e('mehr in den FAQ', 'xardas')?></a></h4>
+                        <h4 class="paper"><a href="<?php navi_link(__('faq', 'xardas')) ?>"><?php _e('read more in our FAQ', 'xardas')?></a></h4>
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@
 <div id="tf-news" class="text-center">
     <div class="container">
         <div class="section-title center">
-            <h2><strong><?php _e('Neuigkeiten', 'xardas')?></strong></h2>
+            <h2><strong><?php _e('News', 'xardas')?></strong></h2>
             <div class="line">
                 <hr>
             </div>
@@ -74,13 +74,13 @@
                 <br>
                 <?php endwhile; else: ?>
                 <p>
-                    <?php _e('Sorry, there are no posts.'); ?>
+                    <?php _e('No posts found'); ?>
                 </p>
                 <?php endif; ?>
             </div>
         </div>
     </div>
-    <a href="archiv"><h4><?php _e('Archiv', 'xardas')?></h4></a>
+    <a href="<?php navi_link(__('archive', 'xardas')) ?>"><h4><?php _e('Archive', 'xardas')?></h4></a>
 </div>
 
 <div id="wallpaper-paralax" class="text-center" style="background-image: url(<?php bloginfo('template_directory'); ?>/img/map.jpg);">
